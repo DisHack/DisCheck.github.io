@@ -1,7 +1,0 @@
-A:link {COLOR: #204060; TEXT-DECORATION: underline}
-A:visited {COLOR: #204080; TEXT-DECORATION: underline}
-A:active {COLOR: #406090; TEXT-DECORATION: underline}
-A:hover {COLOR: #204060; TEXT-DECORATION: none}
-H3 {font-weight : bold; font-size : 130%;}
-input, textarea {font-family: Verdana; font-size: 80%; text-decoration: none; color: #000000; cursor: default; background-color: #FFFFFF; border-style: solid; border-width: 1px; border-color: #000000;}
-
