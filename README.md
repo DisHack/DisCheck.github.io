@@ -1,2 +1,0 @@
-# DisCheck.github.io
-page
