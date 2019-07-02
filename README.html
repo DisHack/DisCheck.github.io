@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>WR-Форум на сайте wr.zgr.ru</title>
+</head>
+<body bgcolor=#FFFFFF>
+
+<center><TABLE style="FILTER: glow(color=#79BBEF, strength=2)"><a href=index.php><h2>Настройка WR-Форума</h2></a></table>
+
+<table width=60% border=0 cellpadding=1 cellspacing=0 bgcolor=#79BBEF><tr><td>
+
+<center><font color=#FFFFFF>:: <b>Назначение скрипта</b> ::</font></td></tr><tr><td colspan=2 width=100%>
+
+<table width=100% cellpadding=9 cellspacing=0 bgcolor=#FFFFFF><tr><td>
+Перед Вами самый обычный форум. Хотя, наверно, не самый обычный. Дело в том, что этот скрипт - <B>ОЧЕНЬ маленький форум</B>. 
+Размер: исполняемого файла - <B>10,0 Кб;</B> всего форума - <B>23 Кб</B> (с учётом смайлов, и хэлпа README.html).<BR>
+</tr></td></table>
+
+
+
+<center><font color=#FFFFFF>:: <b>Возможности</b> ::</font></td></tr><tr><td colspan=2 width=100%>
+<table width=100% cellpadding=10 cellspacing=0 bgcolor=#FFFFFF><tr><td>
+1. Возможность <B>выбора своего заголовка</B> для всех страниц форума (<B>увеличивает рейтинг</B> форума в поисковых системах).
+Сделать это можно заменив значение переменной <B><font color="FF0000">$fname="WR-Форум на сайте wr.zgr.ru".</font></B> (Будьте внимательны при создании заголовка и не используйте символы  " / | \ )
+<hr color=#224488 size=-1 width=98%>
+2. Наличие <B>девяти скинов для форума</B>. Для установки скина закоментируйте текущую строку вида  
+<B><font color="FF0000">//$bdcolor="#FF9A00"; $fcolor="#FFFFFF"; $bagcolor="#FFE1B0"; // Оранжевый</font></B> и раскоментируйте другую.
+<hr color=#224488 size=-1 width=98%>
+3. <B>Автозамена смайликов на картинки</B> (в состав архива входят 11 классных смайликов:
+<img src='smile/smile.gif' border=0>
+<img src='smile/biggrin.gif' border=0>
+<img src='smile/razz.gif' border=0>
+<img src='smile/cool.gif' border=0>
+<img src='smile/mad.gif' border=0>
+<img src='smile/redface.gif' border=0>
+<img src='smile/wink.gif' border=0>
+<img src='smile/rolleyes.gif' border=0>
+<img src='smile/confused.gif' border=0>
+<img src='smile/eek.gif' border=0>
+<img src='smile/cry.gif' border=0>).
+</tr></td></table>
+
+
+<center><font color=#FFFFFF>:: <b>Установка и использование</b> ::</font></td></tr><tr><td colspan=2 width=100%>
+<table width=100% cellpadding=10 cellspacing=0 bgcolor=#FFFFFF><tr><td>
+1. Для того чтобы пользоваться WR-форумом было удобно, 
+   создайте папку, например "<B><font color="FF0000">wr-forum</font></b>" (форум 
+   создаёт новые файлы и при большом количестве 
+   тем, найти какие-либо файлы будет сложнее).
+   Обратите внимание на регистр букв, это имеет
+   значения для верной работы скрипта рекомендую использовать нижний регистр.
+<hr color=#224488 size=-1 width=100%>
+2. Закачайте в эту папку все файлы, включая 
+   каталог со смайликами "<B><font color="FF0000">smile</font></b>". Закачивать
+   и настраивать атрибуты скрипта можно 
+   менеджером "<B><font color="FF0000">Total Commander</font></b>".(Файл -> Изменить атрибуты).
+<hr color=#224488 size=-1 width=100%>
+3. Обратите внимание на <B>обязательный состав форума:</B> <BR>
+    <li><B><font color="FF0000">index.php</b></font> - Главная страница;</li><BR>
+    <li><B><font color="FF0000">style.css</b></font> - таблица стилей;</li><BR>
+    <li><B><font color="FF0000">README.html</b></font> - этот файл;</li><BR>
+    <li><B><font color="FF0000">forum.dat</b></font> - список тем ("хранилище" всех тем форума);</li><BR>
+    <li><B><font color="FF0000">21112136.dat</b></font> - файл с сообщениями одной темы (цифры могут быть другие).</li><BR>
+    <li><B><font color="FF0000">папка "smile"</b></font> с 11-ю файлами внутри с расширением "gif".</li><BR>
+<hr color=#224488 size=-1 width=100%>
+4. Установите всем файлам атрибуты <B>Chmod 644</b> 
+ (для бесплатного хостинга на h1, h10, h11 и др.). При другом хостинге - <B>777</B>.
+<hr color=#224488 size=-1 width=100%>
+5. Запустить скрипт можно ссылкой такого типа:
+   <B>http://Мой_сайт/wr-forum/index.php</B>
+<hr color=#224488 size=-1 width=100%>
+6. Внимание! Скрипт написан на PHP и не работает 
+   на бесплатном хостинге НЕ поддерживающего 
+   эту язык, например, www.narod.ru.
+<hr color=#224488 size=-1 width=100%>
+7. Если все пункты вы выполнили, а скрипт так и не
+   запустился, ну чтож, <B>пишите письмо на моё мыло, 
+   помогу чем смогу</B>.
+<hr color=#224488 size=-1 width=98%>
+<B>З.Ы. Если у кого <B>есть идеи</B> по созданию 
+   интересного проекта в интернете, пишите.
+   Есть хостинг http://wr.zgr.ru, возможность 
+   и желание.</B>
+</tr></td></table>
+
+
+
+<center><font color=#FFFFFF>:: <b>Лицензия</b> ::</font></td></tr><tr><td colspan=2 width=100%>
+<table width=100% cellpadding=10 cellspacing=0 bgcolor=#FFFFFF><tr><td>
+  <div align=justify>&nbsp;&nbsp;&nbsp;&nbsp;
+  <B>Скрипт Форума БЕСПЛАТЕН</B>, но есть несколько 
+оговорок. Если Вы их не принимаете, то 
+пользоваться этим скриптом не рекомендуется.<BR>&nbsp;&nbsp;&nbsp;&nbsp;
+Я не несу никакой ответственности за то, кем и 
+как будет использоваться данный скрипт, то есть 
+при нарушении Вами законодательства РФ, ТОЛЬКО вы несёте
+ответственность. <BR>&nbsp;&nbsp;&nbsp;&nbsp;
+  Владельцам сайтов разрешается менять исходный 
+код файлов. С исходниками этого скрипта <B>можно 
+делать ВСЁ ЧТО УГОДНО</B> (я не жадный :-)).<BR>
+Я буду очень признателен вам, если вы не будете 
+удалять маленький логотип внизу страницы - <font size=-2 color="FF0000">Copyrights (C) <a href='http://wr.zgr.ru'><font color=#FF0000>WR</font></a></font>.</div>
+</tr></td></table>
+
+        
+        
+
+</td></tr></table></td></tr></table>
+<center><font size=-2>Copyrights (C) <a href='http://wr.zgr.ru'>WR</a></font>
+
+<center><pre>
+#############################################
+# Создание скрипта: WR                      #
+# Имя скрипта: WR-Forum                     #
+# Версия скрипта: 1.0                       #
+# Статус: Бесплатный скрипт                 #
+# Требования: PHP3 и выше                   #
+# Дата создания скрипта: 22 ноября 2004 год #
+# Страница: http://wr.zgr.ru/scripts/       #
+# E-mail:   Miha-ingener@yandex.ru          #
+#############################################
+</pre>
+</body></html>
